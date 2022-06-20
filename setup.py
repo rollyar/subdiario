@@ -54,16 +54,16 @@ if minor_version % 2:
 else:
     branch = series
 
-download_url = 'https://github.com/tryton-ar/subdiario/tree/%s' % branch
+download_url = 'https://github.com/rollyar/subdiario/tree/%s' % branch
 
 LINKS = {
-    'trytonar_party_ar': ('git+https://github.com/tryton-ar/'
+    'trytonar_party_ar': ('git+https://github.com/rollyar/'
         'party_ar.git@%s#egg=trytonar_party_ar-%s' %
         (branch, series)),
-    'trytonar_account_invoice_ar': ('git+https://github.com/tryton-ar/'
+    'trytonar_account_invoice_ar': ('git+https://github.com/rollyar/'
         'account_invoice_ar.git@%s#egg=trytonar_account_invoice_ar-%s' %
         (branch, series)),
-    'trytonar_citi_afip': ('git+https://github.com/tryton-ar/'
+    'trytonar_citi_afip': ('git+https://github.com/rollyar/'
         'citi_afip.git@%s#egg=trytonar_citi_afip-%s' %
         (branch, series)),
     }
